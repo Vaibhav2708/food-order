@@ -1,0 +1,37 @@
+a{
+  text-decoration: none;
+  color: red;
+  padding: 1em;
+}
+
+header {
+  background-color: whitesmoke;
+  padding: 0;
+  border-bottom: 1px solid red;
+}
+
+a:hover{
+  background-color: brown;
+  color: white;
+}
+
+.div-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+a.logo{
+  padding: 1em;
+  font-weight: bold;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+}
+
+nav ul li a{
+  padding: 1em;
+  display: inline-block;
+}
